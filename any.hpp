@@ -1,3 +1,6 @@
+#ifndef _ANYTYPE_
+#define _ANYTYPE_
+
 #include <typeinfo>  // typeid
 #include <algorithm> // std::swap
 
@@ -108,3 +111,5 @@ class any
 
 		placeholder *content;
 };
+
+#endif
